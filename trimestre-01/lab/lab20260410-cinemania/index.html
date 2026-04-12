@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Autor(a) del documento -->
+    <meta name="author" content="ecosta@skillnest.com">
+    <!-- Título del documento -->
+    <title>CineManía</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <!-- Título del encabezado -->
+        <h1><img src="static/icons/film.svg" alt="CineManía" width="24">CineManía</h1>
+        <!-- Descripción del encabezado -->
+        <p>¡Bienvenido a <strong>CineManía</strong>! Aquí encontrarás películas para todos los gustos.</p>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <a href="#"><img src="static/icons/house.svg" alt="Inicio">Inicio</a>
+        <a href="#"><img src="static/icons/camera-reels.svg" alt="Catálogo">Catálogo</a>
+        <a href="#"><img src="static/icons/cart.svg" alt="Perfil">Carrito</a>
+    </nav>
+
+    <!-- Sección de películas más vistas -->
+    <section>
+        <!-- Título de la sección -->
+        <h2>Películas más vistas</h2>
+        <!-- Tabla de películas más vistas -->
+        <table border="1">
+            <!-- Encabezado de la tabla -->
+            <thead>
+                <!-- Fila de encabezados -->
+                <tr>
+                    <th>Película</th>
+                    <th>Director</th>
+                    <th>Visualizaciones</th>
+                </tr>
+            </thead>
+            <!-- Cuerpo de la tabla -->
+            <tbody>
+                <!-- Fila de datos 1 -->
+                <tr>
+                    <td><a href="#">Avatar</a></td>
+                    <td>James Cameron</td>
+                    <td>1.250.000</td>
+                </tr>
+                <!-- Fila de datos 2 -->
+                <tr>
+                    <td><a href="#">Toy Story</a></td>
+                    <td>John Lasseter</td>
+                    <td>980.000</td>
+                </tr>
+                <!-- Fila de datos 3 -->
+                <tr>
+                    <td><a href="#">El viaje de Chihiro</a></td>
+                    <td>Hayao Miyazaki</td>
+                    <td>870.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sección de búsqueda -->
+    <section>
+        <!-- Título de la sección -->
+        <h2>¿Qué películas buscas?</h2>
+        <!-- Formulario de búsqueda -->
+        <form action="">
+            <!-- Campo de búsqueda -->
+            <div>
+                <label for="buscar">Título o director:</label>
+                <input type="text" id="buscar" placeholder="Buscar películas...">
+            </div>
+            <!-- Botón de búsqueda -->
+            <button type="submit">Buscar</button>
+        </form>
+    </section>
+
+    <!-- Sección de categorías -->
+    <section>
+        <!-- Título de la sección -->
+        <h2>Categorías</h2>
+        <!-- Lista de categorías -->
+        <ul>
+            <li><a href="#">Animación</a></li>
+            <li><a href="#">Aventura</a></li>
+            <li><a href="#">Ciencia ficción</a></li>
+            <li><a href="#">Drama</a></li>
+        </ul>
+    </section>
+
+    <!-- Sección de películas destacadas -->
+    <section>
+        <!-- Título de la sección -->
+        <h2>Películas destacadas</h2>
+
+        <!-- Contenido película 1 -->
+        <div>
+            <h3>Coco</h3>
+            <img src="static/images/coco.jpg" alt="Coco" width="200">
+            <p>Dirigida por <strong>Lee Unkrich</strong></p>
+            <p>Una aventura animada sobre la familia, la memoria y la música.</p>
+            <h4>Hora de función: 15:30</h4>
+            <button>Dar me gusta</button>
+        </div>
+        <!-- Contenido película 2 -->
+        <div>
+            <h3>Interstellar</h3>
+            <img src="static/images/interstellar.jpg" alt="Interstellar" width="200">
+            <p>Dirigida por <strong>Christopher Nolan</strong></p>
+            <p>Un viaje épico por el espacio en busca de un nuevo futuro para la humanidad.</p>
+            <h4>Hora de función: 18:00</h4>
+            <button>Dar me gusta</button>
+        </div>
+        <!-- Contenido película 3 -->
+        <div>
+            <h3>Spider-Man: No Way Home</h3>
+            <img src="static/images/spider-man-no-way-home.jpg" alt="Spider-Man: No Way Home" width="200">
+            <p>Dirigida por <strong>Jon Watts</strong></p>
+            <p>Peter Parker enfrenta consecuencias inesperadas tras pedir ayuda a Doctor Strange.</p>
+            <h4>Hora de función: 20:15</h4>
+            <button>Dar me gusta</button>
+        </div>
+    </section>
+
+    <!-- Sección de pie de página -->
+    <footer>
+        <!-- Contenido del pie de página -->
+        <p>
+            CineManía 2026. Desarrollado con <img src="static/icons/heart-fill.svg" alt="heart-fill" class="icono-corazon"> por
+            <a href="mailto:ecosta@colegiosanlorenzo.org">ecosta@colegiosanlorenzo.org</a>.
+        </p>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
